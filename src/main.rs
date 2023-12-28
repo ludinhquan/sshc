@@ -1,3 +1,5 @@
+use sshc::command::Prog;
+
 fn main() {
-    println!("Hello, world!");
+  Prog::new().execute();
 }
